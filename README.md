@@ -53,8 +53,8 @@ project-root/
 ## 🔧 **Cómo Ejecutar el Proyecto**
 1️⃣ Clonar este repositorio:
 ```sh
-git clone https://github.com/tu-usuario/spring-mvc-mustache.git
-cd spring-mvc-mustache
+git clone https://github.com/CristianInBits/DAD_Projects.git
+cd DAD_Projects/ejemplos-mustache
 ```
 2️⃣ Compilar y ejecutar con Maven:
 ```sh
