@@ -1,0 +1,25 @@
+<html>
+
+<body>
+    <h2>Product List</h2>
+    {{#products}}
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+        </tr>
+        {{#products}}
+        <tr>
+            <td>{{name}}</td>
+            <td>${{price}}</td>
+        </tr>
+        {{/products}}
+    </table>
+    {{/products}}
+
+    {{^products}}
+    <p>No products available at the moment.</p>
+    {{/products}}
+</body>
+
+</html>

@@ -20,4 +20,15 @@ public class ProductController {
         model.addAttribute("products", products);
         return "products_templates";
     }
+
+    // Si no hay productos en la lista, se debe mostrar un mensaje indicando que no
+    // hay elementos.
+    @GetMapping("/empty_products")
+    public String emptyProducts(Model model) {
+
+        List<Product> products = Arrays.asList(); // Lista vacía
+        model.addAttribute("products", products);
+        return "empty_products_template";
+    }
+
 }
