@@ -1,0 +1,16 @@
+<html>
+
+<body>
+    <h2>Welcome, {{user.name}}!</h2>
+
+    {{#user.profilePic}}
+    <img src="/images/{{user.profilePic}}" alt="Profile Picture">
+    {{/user.profilePic}}
+
+    {{^user.profilePic}}
+    <img src="/images/default-profile.jpg" alt="Default Profile Picture">
+    {{/user.profilePic}}
+
+</body>
+
+</html>

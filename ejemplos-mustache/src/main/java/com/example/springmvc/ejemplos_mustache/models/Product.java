@@ -1,4 +1,4 @@
-package com.example.springmvc.ejemplos_mustache;
+package com.example.springmvc.ejemplos_mustache.models;
 
 public class Product {
 

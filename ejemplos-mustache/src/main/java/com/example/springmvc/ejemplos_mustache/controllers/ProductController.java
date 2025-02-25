@@ -1,8 +1,10 @@
-package com.example.springmvc.ejemplos_mustache;
+package com.example.springmvc.ejemplos_mustache.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+
+import com.example.springmvc.ejemplos_mustache.models.Product;
 
 import java.util.Arrays;
 import java.util.List;
