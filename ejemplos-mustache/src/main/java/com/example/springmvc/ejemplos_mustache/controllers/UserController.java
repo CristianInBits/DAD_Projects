@@ -32,7 +32,7 @@ public class UserController {
 
     @GetMapping("/user-status")
     public String showUserStatus(Model model){
-        User user = new User("Lucía García", null, false); // Cambia a true para probar el caso activo
+        User user = new User("Lucía García", null, true); // Cambia a true para probar el caso activo
         model.addAttribute("user", user);
         return "users/user_status_template";
     }
