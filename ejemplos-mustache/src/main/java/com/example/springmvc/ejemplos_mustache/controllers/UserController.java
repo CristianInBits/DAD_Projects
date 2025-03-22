@@ -19,7 +19,7 @@ public class UserController {
         User userWithoutPhoto = new User("Peter Griffin", "default-profile.jpg");
 
         model.addAttribute("user", userWithPhoto);
-        return "user_template";
+        return "users/user_template";
     }
 
     @GetMapping("/date")
@@ -27,7 +27,7 @@ public class UserController {
         LocalDate createdDate = LocalDate.now();
         String formattedDate = createdDate.format(DateTimeFormatter.ofPattern("dd MMMM yyyy"));
         model.addAttribute("createdDate", formattedDate);
-        return "date_template";
+        return "users/date_template";
     }
 
 }

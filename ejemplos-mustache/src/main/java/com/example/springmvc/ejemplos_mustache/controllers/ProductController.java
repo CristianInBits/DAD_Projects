@@ -20,7 +20,7 @@ public class ProductController {
                 new Product("Smartphone", 899.49),
                 new Product("Tablet", 499.99));
         model.addAttribute("products", products);
-        return "products_templates";
+        return "products/products_templates";
     }
 
     // Si no hay productos en la lista, se debe mostrar un mensaje indicando que no
@@ -30,7 +30,7 @@ public class ProductController {
 
         List<Product> products = Arrays.asList(); // Lista vacía
         model.addAttribute("products", products);
-        return "empty_products_template";
+        return "products/empty_products_template";
     }
 
 }
