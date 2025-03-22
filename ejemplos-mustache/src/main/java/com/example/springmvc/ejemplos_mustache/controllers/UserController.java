@@ -19,6 +19,7 @@ public class UserController {
         User userWithoutPhoto = new User("Peter Griffin", "default-profile.jpg", false);
 
         model.addAttribute("user", userWithPhoto);
+        //model.addAttribute("user", userWithoutPhotoPhoto);
         return "users/user_template";
     }
 
