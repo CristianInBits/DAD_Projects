@@ -1,0 +1,21 @@
+{{>fragments/header}}
+
+<body>
+    <h2>Productos Disponibles</h2>
+    <ul>
+    {{#products}}
+        <li>
+            <h3>{{name}}</h3>
+            {{#image}}
+                <img src="/images/{{image}}" alt="{{name}}" width="150">
+            {{/image}}
+
+            {{^image}}
+                <img src="/images/default-product.png" alt="Producto sin imagen" width="150">
+            {{/image}}
+        </li>
+    {{/products}}
+    </ul>
+</body>
+
+{{>fragments/footer}}

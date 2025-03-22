@@ -16,11 +16,11 @@ public class ProductController {
     @GetMapping("/products")
     public String showProducts(Model model) {
         List<Product> products = Arrays.asList(
-                new Product("Laptop", 1200.99),
-                new Product("Smartphone", 899.49),
-                new Product("Tablet", 499.99));
+                new Product("Laptop", 1200.99, "laptop.png"),
+                new Product("Smartphone", 899.49, null),
+                new Product("Tablet", 499.99, "tablet.png"));
         model.addAttribute("products", products);
-        return "products/products_templates";
+        return "products/products_images_template";
     }
 
     // Si no hay productos en la lista, se debe mostrar un mensaje indicando que no
