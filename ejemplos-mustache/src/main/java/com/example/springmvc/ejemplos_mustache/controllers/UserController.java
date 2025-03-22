@@ -15,8 +15,8 @@ public class UserController {
     @GetMapping("/user")
     public String showUseString(Model model) {
 
-        User userWithPhoto = new User("Peter Griffin", "peter.jpg");
-        User userWithoutPhoto = new User("Peter Griffin", "default-profile.jpg");
+        User userWithPhoto = new User("Peter Griffin", "peter.jpg", false);
+        User userWithoutPhoto = new User("Peter Griffin", "default-profile.jpg", false);
 
         model.addAttribute("user", userWithPhoto);
         return "users/user_template";
@@ -28,6 +28,13 @@ public class UserController {
         String formattedDate = createdDate.format(DateTimeFormatter.ofPattern("dd MMMM yyyy"));
         model.addAttribute("createdDate", formattedDate);
         return "users/date_template";
+    }
+
+    @GetMapping("/user-status")
+    public String showUserStatus(Model model){
+        User user = new User("Lucía García", null, false); // Cambia a true para probar el caso activo
+        model.addAttribute("user", user);
+        return "users/user_status_template";
     }
 
 }

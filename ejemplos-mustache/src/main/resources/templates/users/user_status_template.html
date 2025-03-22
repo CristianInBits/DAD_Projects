@@ -1,0 +1,15 @@
+{{>fragments/header}}
+
+<body>
+    <h2>Bienvenido/a, {{user.name}}</h2>
+
+    {{#user.active}}
+        <p>Tu cuenta está activa. ¡Disfruta de nuestros servicios!</p>
+    {{/user.active}}
+
+    {{^user.active}}
+        <p>Tu cuenta está inactiva. Por favor, contacta con soporte para reactivarla.</p>
+    {{/user.active}}
+</body>
+
+{{>fragments/footer}}
