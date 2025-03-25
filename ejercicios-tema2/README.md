@@ -21,6 +21,7 @@ ejercicios-tema2/
 | Proyecto           | Descripción                                                                 |
 |--------------------|-----------------------------------------------------------------------------|
 | `guestbook`        | Permite a los usuarios dejar su nombre y un mensaje visible públicamente.  |
+| `product-catalog`  | Catálogo CRUD simple con nombre, descripción y precio.                     |
 
 Cada uno de estos ejercicios cuenta con:
 - Su propio `pom.xml`
