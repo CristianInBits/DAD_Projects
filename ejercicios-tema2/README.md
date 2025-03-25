@@ -11,6 +11,7 @@ Cada carpeta representa un proyecto independiente, generado con **Spring Initial
 ```
 ejercicios-tema2/
 ├── guestbook/           # Libro de visitas básico
+├── product-catalog/     # Catálogo de productos
 └── README.md
 ```
 
