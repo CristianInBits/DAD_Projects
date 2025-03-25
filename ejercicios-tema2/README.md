@@ -12,6 +12,7 @@ Cada carpeta representa un proyecto independiente, generado con **Spring Initial
 ejercicios-tema2/
 ├── guestbook/           # Libro de visitas básico
 ├── product-catalog/     # Catálogo de productos
+├── todo-list/           # Lista de tareas pendientes (por hacer)
 └── README.md
 ```
 
@@ -23,6 +24,7 @@ ejercicios-tema2/
 |--------------------|-----------------------------------------------------------------------------|
 | `guestbook`        | Permite a los usuarios dejar su nombre y un mensaje visible públicamente.  |
 | `product-catalog`  | Catálogo CRUD simple con nombre, descripción y precio.                     |
+| `todo-list`        | (En preparación) Gestor de tareas con marca de completadas.                |
 
 Cada uno de estos ejercicios cuenta con:
 - Su propio `pom.xml`
