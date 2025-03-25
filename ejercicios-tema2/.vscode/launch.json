@@ -9,6 +9,16 @@
             "projectName": "guestbook",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ProductcatalogApplication<productcatalog>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.chatgpt.code.productcatalog.ProductcatalogApplication",
+            "projectName": "productcatalog",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }

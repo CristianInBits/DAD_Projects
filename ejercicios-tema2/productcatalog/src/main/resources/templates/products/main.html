@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Product Catalog</title>
+</head>
+<body>
+
+<h1>📦 Product Catalog</h1>
+
+<a href="/products/new">➕ Add New Product</a>
+<hr>
+
+{{#products}}
+    <div style="border:1px solid #ccc; padding: 10px; margin-bottom: 10px;">
+        <h3><a href="/products/{{id}}">{{name}}</a></h3>
+        <p><strong>Price:</strong> ${{price}}</p>
+        <a href="/products/{{id}}/delete">❌ Delete</a>
+    </div>
+{{/products}}
+
+{{^products}}
+    <p>No products available.</p>
+{{/products}}
+
+</body>
+</html>
