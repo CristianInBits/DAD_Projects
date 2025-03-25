@@ -1,0 +1,28 @@
+<!-- ✅ new.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>New Post</title>
+</head>
+<body>
+
+<h1>➕ Create New Post</h1>
+
+<form action="/posts" method="post">
+    <label>Title:</label><br>
+    <input type="text" name="title" required><br><br>
+
+    <label>Author:</label><br>
+    <input type="text" name="author" required><br><br>
+
+    <label>Content:</label><br>
+    <textarea name="content" rows="5" cols="40" required></textarea><br><br>
+
+    <input type="submit" value="Publish Post">
+</form>
+
+<p><a href="/">🔙 Back to main</a></p>
+
+</body>
+</html>

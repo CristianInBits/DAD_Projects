@@ -12,7 +12,8 @@ Cada carpeta representa un proyecto independiente, generado con **Spring Initial
 ejercicios-tema2/
 ├── guestbook/           # Libro de visitas básico
 ├── product-catalog/     # Catálogo de productos
-├── todo-list/           # Lista de tareas pendientes (por hacer)
+├── todo-list/           # Lista de tareas pendientes
+├── forum/               # Mini foro de discusión
 └── README.md
 ```
 
@@ -24,7 +25,8 @@ ejercicios-tema2/
 |--------------------|-----------------------------------------------------------------------------|
 | `guestbook`        | Permite a los usuarios dejar su nombre y un mensaje visible públicamente.  |
 | `product-catalog`  | Catálogo CRUD simple con nombre, descripción y precio.                     |
-| `todo-list`        | (En preparación) Gestor de tareas con marca de completadas.                |
+| `todo-list`        | Gestor de tareas donde pueden añadirse, completarse y eliminarse.          |
+| `forum`            | Mini foro para publicar, ver y eliminar mensajes de discusión.             |
 
 Cada uno de estos ejercicios cuenta con:
 - Su propio `pom.xml`
@@ -64,6 +66,5 @@ Cada uno de estos ejercicios cuenta con:
 ## ✍️ Autor y propósito
 
 Este proyecto forma parte de una práctica guiada para el aprendizaje de Spring MVC, formularios web, controladores, vistas dinámicas y arquitectura básica de aplicaciones distribuidas en Java.
-
 
 ¡Continúa explorando y practicando! 😄
