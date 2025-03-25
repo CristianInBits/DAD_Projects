@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Guestbook</title>
+</head>
+<body>
+
+    <h1>📘 Guestbook</h1>
+
+    <a href="/messages/new">➕ Add new message</a>
+    <hr>
+
+    {{#messages}}
+        <div style="border:1px solid #ccc; padding:10px; margin-bottom:10px;">
+            <p><strong>{{author}}</strong></p>
+            <p>{{content}}</p>
+            <a href="/messages/{{id}}">👁 View</a> |
+            <a href="/messages/{{id}}/delete">❌ Delete</a>
+        </div>
+    {{/messages}}
+
+    {{^messages}}
+        <p>No messages yet.</p>
+    {{/messages}}
+
+</body>
+</html>

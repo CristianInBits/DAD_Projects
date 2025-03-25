@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>New Message</title>
+</head>
+<body>
+
+    <h1>📝 Add a new message</h1>
+
+    <form action="/messages" method="post">
+        <label for="author">Name:</label><br>
+        <input type="text" id="author" name="author" required><br><br>
+
+        <label for="content">Message:</label><br>
+        <textarea id="content" name="content" rows="5" cols="40" required></textarea><br><br>
+
+        <input type="submit" value="Save">
+    </form>
+
+    <p><a href="/">🔙 Back to guestbook</a></p>
+
+</body>
+</html>
