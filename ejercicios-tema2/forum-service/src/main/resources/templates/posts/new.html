@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Create New Post</title>
+</head>
+<body>
+
+<h1>➕ Create a New Post</h1>
+
+<form action="/posts" method="post">
+    <label>Author:</label><br>
+    <input type="text" name="author" required><br><br>
+
+    <label>Title:</label><br>
+    <input type="text" name="title" required><br><br>
+
+    <label>Text:</label><br>
+    <textarea name="text" rows="5" cols="40" required></textarea><br><br>
+
+    <input type="submit" value="Publish">
+</form>
+
+<p><a href="/">🔙 Back to home</a></p>
+
+</body>
+</html>

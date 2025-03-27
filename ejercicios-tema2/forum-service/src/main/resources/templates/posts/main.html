@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Forum - Home</title>
+</head>
+<body>
+
+<h1>💬 Forum Posts</h1>
+<a href="/posts/new">➕ Create New Post</a>
+<hr>
+
+{{#posts}}
+<div style="border: 1px solid #ccc; padding: 10px; margin-bottom: 10px;">
+    <h3><a href="/posts/{{id}}">{{title}}</a></h3>
+    <p><strong>Author:</strong> {{author}}</p>
+    <a href="/posts/{{id}}/delete">🗑 Delete</a>
+</div>
+{{/posts}}
+
+{{^posts}}
+<p>No posts yet.</p>
+{{/posts}}
+
+</body>
+</html>

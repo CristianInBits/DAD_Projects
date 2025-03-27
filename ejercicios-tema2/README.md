@@ -10,10 +10,11 @@ Cada carpeta representa un proyecto independiente, generado con **Spring Initial
 
 ```
 ejercicios-tema2/
-├── guestbook/           # Libro de visitas básico
-├── product-catalog/     # Catálogo de productos
-├── todo-list/           # Lista de tareas pendientes
-├── forum/               # Mini foro de discusión
+├── forum-service/      # Mini foro con inyecciones
+├── forum/              # Mini foro de discusión
+├── guestbook/          # Libro de visitas básico
+├── product-catalog/    # Catálogo de productos
+├── todo-list/          # Lista de tareas pendientes
 └── README.md
 ```
 
@@ -23,10 +24,11 @@ ejercicios-tema2/
 
 | Proyecto           | Descripción                                                                 |
 |--------------------|-----------------------------------------------------------------------------|
+| `forum-service`    | Versión estructurada del foro con Postservie e inyecciones                 |
+| `forum`            | Mini foro para publicar, ver y eliminar mensajes de discusión.             |
 | `guestbook`        | Permite a los usuarios dejar su nombre y un mensaje visible públicamente.  |
 | `product-catalog`  | Catálogo CRUD simple con nombre, descripción y precio.                     |
 | `todo-list`        | Gestor de tareas donde pueden añadirse, completarse y eliminarse.          |
-| `forum`            | Mini foro para publicar, ver y eliminar mensajes de discusión.             |
 
 Cada uno de estos ejercicios cuenta con:
 - Su propio `pom.xml`

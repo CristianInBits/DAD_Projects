@@ -49,6 +49,16 @@
             "projectName": "message-board",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ForumServiceApplication<forum-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.chatgpt.code.forum_service.ForumServiceApplication",
+            "projectName": "forum-service",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
