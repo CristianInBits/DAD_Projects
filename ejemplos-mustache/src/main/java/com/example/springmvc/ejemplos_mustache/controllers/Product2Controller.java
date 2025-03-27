@@ -31,8 +31,8 @@ public class Product2Controller {
     }
 
     @GetMapping("/products/{id}/delete")
-    public String deleteProduct(Model model, @PathVariable long id){
-        products.removeIf(p -> p.getName()==name)
-        model.addAttribute("id", id)
+    public String deleteProduct(Model model, @PathVariable String name){
+        products.removeIf(p -> p.getName()==name);
+        model.addAttribute("name", name);
     }
 }
