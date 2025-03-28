@@ -15,7 +15,8 @@ ejercicios-tema2/
 ├── forum/              # Mini foro de discusión
 ├── guestbook/          # Libro de visitas básico
 ├── product-catalog/    # Catálogo de productos
-├── session-demo/       # Sessionde usario httpsession
+├── session-demo/       # Session de usuario httpsession
+├── session-scope-demo/ # Session de usuario @SessionScope
 ├── todo-list/          # Lista de tareas pendientes
 └── README.md
 ```
@@ -32,6 +33,7 @@ ejercicios-tema2/
 | `guestbook`        | Permite a los usuarios dejar su nombre y un mensaje visible públicamente.  |
 | `product-catalog`  | Catálogo CRUD simple con nombre, descripción y precio.                     |
 | `session-demo`     | Gestión de sesión con `HttpSession` para almacenar atributos por usuario.  |
+| `session-scope`    | Gestión de sesión con `@SessionScope`, enfoque más elegante y orientado a objetos. |
 | `todo-list`        | Gestor de tareas donde pueden añadirse, completarse y eliminarse.          |
 
 Cada uno de estos ejercicios cuenta con:
