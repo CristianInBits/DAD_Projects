@@ -10,11 +10,12 @@ Cada carpeta representa un proyecto independiente, generado con **Spring Initial
 
 ```
 ejercicios-tema2/
-├── book-library/      # Mini libreria con inyecciones
+├── book-library/       # Mini libreria con inyecciones
 ├── forum-service/      # Mini foro con inyecciones
 ├── forum/              # Mini foro de discusión
 ├── guestbook/          # Libro de visitas básico
 ├── product-catalog/    # Catálogo de productos
+├── session-demo/       # Sessionde usario httpsession
 ├── todo-list/          # Lista de tareas pendientes
 └── README.md
 ```
@@ -30,6 +31,7 @@ ejercicios-tema2/
 | `forum`            | Mini foro para publicar, ver y eliminar mensajes de discusión.             |
 | `guestbook`        | Permite a los usuarios dejar su nombre y un mensaje visible públicamente.  |
 | `product-catalog`  | Catálogo CRUD simple con nombre, descripción y precio.                     |
+| `session-demo`     | Gestión de sesión con `HttpSession` para almacenar atributos por usuario.  |
 | `todo-list`        | Gestor de tareas donde pueden añadirse, completarse y eliminarse.          |
 
 Cada uno de estos ejercicios cuenta con:

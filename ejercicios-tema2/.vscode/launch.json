@@ -69,6 +69,16 @@
             "projectName": "book-library",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SessionDemoApplication<session-demo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.chatgpt.code.session_demo.SessionDemoApplication",
+            "projectName": "session-demo",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
