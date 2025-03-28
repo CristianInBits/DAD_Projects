@@ -59,6 +59,16 @@
             "projectName": "forum-service",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-BookLibraryApplication<book-library>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.chatgpt.code.book_library.BookLibraryApplication",
+            "projectName": "book-library",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }

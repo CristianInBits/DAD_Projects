@@ -10,6 +10,7 @@ Cada carpeta representa un proyecto independiente, generado con **Spring Initial
 
 ```
 ejercicios-tema2/
+├── book-library/      # Mini libreria con inyecciones
 ├── forum-service/      # Mini foro con inyecciones
 ├── forum/              # Mini foro de discusión
 ├── guestbook/          # Libro de visitas básico
@@ -24,6 +25,7 @@ ejercicios-tema2/
 
 | Proyecto           | Descripción                                                                 |
 |--------------------|-----------------------------------------------------------------------------|
+| `book-library`     | Biblioteca de libros simple con creación, visualización y eliminación de libros. Usa servicios, rutas REST y plantillas Mustache. |
 | `forum-service`    | Versión estructurada del foro con Postservie e inyecciones                 |
 | `forum`            | Mini foro para publicar, ver y eliminar mensajes de discusión.             |
 | `guestbook`        | Permite a los usuarios dejar su nombre y un mensaje visible públicamente.  |

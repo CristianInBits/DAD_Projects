@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>📚 Book Library</title>
+</head>
+<body>
+
+<h1>📚 Book Library</h1>
+
+<a href="/books/new">➕ Add New Book</a>
+<hr>
+
+{{#books}}
+<div style="border: 1px solid #ccc; padding: 10px; margin-bottom: 10px;">
+    <h3><a href="/books/{{id}}">{{title}}</a> ({{year}})</h3>
+    <p><strong>Author:</strong> {{author}}</p>
+    <a href="/books/{{id}}/delete">🗑 Delete</a>
+</div>
+{{/books}}
+
+{{^books}}
+<p>No books in the library yet.</p>
+{{/books}}
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Add New Book</title>
+</head>
+<body>
+
+<h1>➕ Add a New Book</h1>
+
+<form action="/books" method="post">
+    <label>Title:</label><br>
+    <input type="text" name="title" required><br><br>
+
+    <label>Author:</label><br>
+    <input type="text" name="author" required><br><br>
+
+    <label>Year:</label><br>
+    <input type="number" name="year" required><br><br>
+
+    <label>Summary:</label><br>
+    <textarea name="summary" rows="5" cols="40" required></textarea><br><br>
+
+    <input type="submit" value="Save Book">
+</form>
+
+<p><a href="/">🔙 Back to library</a></p>
+
+</body>
+</html>
