@@ -17,6 +17,7 @@ ejercicios-tema2/
 ├── product-catalog/    # Catálogo de productos
 ├── session-demo/       # Session de usuario httpsession
 ├── session-scope-demo/ # Session de usuario @SessionScope
+├── survey-app/         # Apliación encuenta @SessionScope
 ├── todo-list/          # Lista de tareas pendientes
 └── README.md
 ```
@@ -34,6 +35,7 @@ ejercicios-tema2/
 | `product-catalog`  | Catálogo CRUD simple con nombre, descripción y precio.                     |
 | `session-demo`     | Gestión de sesión con `HttpSession` para almacenar atributos por usuario.  |
 | `session-scope`    | Gestión de sesión con `@SessionScope`, enfoque más elegante y orientado a objetos. |
+| `survey-app`           | Aplicación de encuesta con respuestas guardadas en sesión (`@SessionScope`) y contador global. |
 | `todo-list`        | Gestor de tareas donde pueden añadirse, completarse y eliminarse.          |
 
 Cada uno de estos ejercicios cuenta con:

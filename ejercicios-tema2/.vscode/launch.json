@@ -89,6 +89,16 @@
             "projectName": "session-scope-demo",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SurveyAppApplication<survey-app>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.chatgpt.code.survey_app.SurveyAppApplication",
+            "projectName": "survey-app",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
