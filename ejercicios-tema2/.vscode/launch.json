@@ -99,6 +99,16 @@
             "projectName": "survey-app",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-CurrencyConverterApplication<currency-converter>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.chatgpt.code.currency_converter.CurrencyConverterApplication",
+            "projectName": "currency-converter",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }

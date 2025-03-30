@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Currency Converter</title>
+</head>
+<body>
+
+<h2>💱 Convert EUR to another currency</h2>
+
+<form action="/convert" method="post">
+
+    <label>Amount in EUR:</label><br>
+    <input type="number" name="amount" step="0.01" required><br><br>
+
+    <label>Target currency:</label><br>
+    <select name="currency">
+        <option value="USD">USD - US Dollar</option>
+        <option value="GBP">GBP - British Pound</option>
+        <option value="JPY">JPY - Japanese Yen</option>
+    </select><br><br>
+
+    <input type="submit" value="Convert">
+</form>
+
+</body>
+</html>
