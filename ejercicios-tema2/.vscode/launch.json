@@ -109,6 +109,16 @@
             "projectName": "currency-converter",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-AppointmentManagerApplication<appointment-manager>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.chatgpt.code.appointment_manager.AppointmentManagerApplication",
+            "projectName": "appointment-manager",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }

@@ -1,0 +1,22 @@
+<h2>➕ Schedule a New Appointment</h2>
+
+<form action="/appointments" method="post">
+    <label>Patient Name:</label><br>
+    <input type="text" name="patientName" required><br><br>
+
+    <label>Doctor Name:</label><br>
+    <input type="text" name="doctorName" required><br><br>
+
+    <label>Date (yyyy-mm-dd):</label><br>
+    <input type="date" name="date" required><br><br>
+
+    <label>Time:</label><br>
+    <input type="time" name="time" required><br><br>
+
+    <label>Reason:</label><br>
+    <textarea name="reason" rows="4" cols="40"></textarea><br><br>
+
+    <input type="submit" value="Save Appointment">
+</form>
+
+<p><a href="/appointments">🔙 Back to list</a></p>

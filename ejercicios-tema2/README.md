@@ -10,16 +10,17 @@ Cada carpeta representa un proyecto independiente, generado con **Spring Initial
 
 ```
 ejercicios-tema2/
-├── book-library/       # Mini libreria con inyecciones 
-├── currency-converter/ # Conversor de Monedas
-├── forum-service/      # Mini foro con inyecciones
-├── forum/              # Mini foro de discusión
-├── guestbook/          # Libro de visitas básico
-├── product-catalog/    # Catálogo de productos
-├── session-demo/       # Session de usuario httpsession
-├── session-scope-demo/ # Session de usuario @SessionScope
-├── survey-app/         # Apliación encuenta @SessionScope
-├── todo-list/          # Lista de tareas pendientes
+├── appointment-manager/    # Gestor de Citas Médicas @Service
+├── book-library/           # Mini libreria con inyecciones 
+├── currency-converter/     # Conversor de Monedas
+├── forum-service/          # Mini foro con inyecciones
+├── forum/                  # Mini foro de discusión
+├── guestbook/              # Libro de visitas básico
+├── product-catalog/        # Catálogo de productos
+├── session-demo/           # Session de usuario httpsession
+├── session-scope-demo/     # Session de usuario @SessionScope
+├── survey-app/             # Apliación encuenta @SessionScope
+├── todo-list/              # Lista de tareas pendientes
 └── README.md
 ```
 
@@ -29,6 +30,7 @@ ejercicios-tema2/
 
 | Proyecto           | Descripción                                                                 |
 |--------------------|-----------------------------------------------------------------------------|
+| `appointment-manager`  | Gestor de citas médicas con alta, visualización y eliminación. Lógica separada en servicio `@Service`. |
 | `book-library`     | Biblioteca de libros simple con creación, visualización y eliminación de libros. Usa servicios, rutas REST y plantillas Mustache. |
 | `currency-converter`   | Conversor de euros a USD, GBP o JPY usando un servicio Spring. Practica lógica de negocio separada con `@Service`. |
 | `forum-service`    | Versión estructurada del foro con Postservie e inyecciones                 |
