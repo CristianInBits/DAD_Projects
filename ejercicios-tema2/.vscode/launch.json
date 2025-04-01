@@ -119,6 +119,16 @@
             "projectName": "appointment-manager",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-CustomerSurveyApplication<customer-survey>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.chatgpt.code.customer_survey.CustomerSurveyApplication",
+            "projectName": "customer-survey",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }

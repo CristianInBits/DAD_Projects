@@ -1,0 +1,17 @@
+<h2>📋 Survey Responses (Anonymized)</h2>
+
+{{#responses}}
+    <div style="margin-bottom: 1em;">
+        <strong>Rating:</strong> {{rating}}<br>
+        <strong>Comment:</strong> {{comment}}<br>
+        <a href="/responses/{{id}}">👁 View</a> |
+        <a href="/responses/{{id}}/delete">❌ Delete</a>
+    </div>
+{{/responses}}
+
+{{^responses}}
+    <p>No responses yet.</p>
+{{/responses}}
+
+<p><a href="/survey">➕ Submit new</a></p>
+<p><a href="/stats">📊 View stats</a></p>
