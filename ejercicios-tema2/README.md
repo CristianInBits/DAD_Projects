@@ -18,6 +18,7 @@ ejercicios-tema2/
 ├── forum/                  # Mini foro de discusión
 ├── guestbook/              # Libro de visitas básico
 ├── product-catalog/        # Catálogo de productos
+├── recipe-manager/         # Gestor de Recetas de Cocina
 ├── session-demo/           # Session de usuario httpsession
 ├── session-scope-demo/     # Session de usuario @SessionScope
 ├── survey-app/             # Apliación encuenta @SessionScope
@@ -39,6 +40,7 @@ ejercicios-tema2/
 | `forum`            | Mini foro para publicar, ver y eliminar mensajes de discusión.             |
 | `guestbook`        | Permite a los usuarios dejar su nombre y un mensaje visible públicamente.  |
 | `product-catalog`  | Catálogo CRUD simple con nombre, descripción y precio.                     |
+| `recipe-manager`   | Gestor de recetas con CRUD completo, dificultad, edición, estadísticas y separación profesional de responsabilidades. |
 | `session-demo`     | Gestión de sesión con `HttpSession` para almacenar atributos por usuario.  |
 | `session-scope`    | Gestión de sesión con `@SessionScope`, enfoque más elegante y orientado a objetos. |
 | `survey-app`           | Aplicación de encuesta con respuestas guardadas en sesión (`@SessionScope`) y contador global. |

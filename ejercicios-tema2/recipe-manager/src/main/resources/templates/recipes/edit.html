@@ -1,0 +1,17 @@
+<h2>✏️ Edit Recipe</h2>
+
+<form action="/recipes/{{recipe.id}}/edit" method="post">
+    Title: <input type="text" name="title" value="{{recipe.title}}"><br><br>
+    Author: <input type="text" name="author" value="{{recipe.author}}"><br><br>
+    Ingredients:<br>
+    <textarea name="ingredients" rows="3" cols="40">{{recipe.ingredients}}</textarea><br><br>
+    Instructions:<br>
+    <textarea name="instructions" rows="4" cols="40">{{recipe.instructions}}</textarea><br><br>
+    Difficulty:
+    <select name="difficulty">
+        <option {{#difficulty}}Low{{/difficulty}}>Low</option>
+        <option {{#difficulty}}Medium{{/difficulty}}>Medium</option>
+        <option {{#difficulty}}High{{/difficulty}}>High</option>
+    </select><br><br>
+    <input type="submit" value="Update">
+</form>

@@ -1,0 +1,17 @@
+<h2>📜 Recipes</h2>
+
+{{#recipes}}
+<div style="margin-bottom: 10px;">
+    <strong>{{title}}</strong> by {{author}} ({{difficulty}})
+    <br>
+    <a href="/recipes/{{id}}">👁 View</a> |
+    <a href="/recipes/{{id}}/edit">✏️ Edit</a> |
+    <a href="/recipes/{{id}}/delete">❌ Delete</a>
+</div>
+{{/recipes}}
+
+{{^recipes}}
+<p>No recipes yet.</p>
+{{/recipes}}
+
+<p><a href="/recipes/new">➕ Add New Recipe</a> | <a href="/recipes/stats">📊 View Stats</a></p>

@@ -1,0 +1,17 @@
+<h2>➕ New Recipe</h2>
+
+<form action="/recipes" method="post">
+    Title: <input type="text" name="title"><br><br>
+    Author: <input type="text" name="author"><br><br>
+    Ingredients:<br>
+    <textarea name="ingredients" rows="3" cols="40"></textarea><br><br>
+    Instructions:<br>
+    <textarea name="instructions" rows="4" cols="40"></textarea><br><br>
+    Difficulty:
+    <select name="difficulty">
+        <option>Low</option>
+        <option>Medium</option>
+        <option>High</option>
+    </select><br><br>
+    <input type="submit" value="Save">
+</form>
