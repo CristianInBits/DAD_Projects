@@ -139,6 +139,16 @@
             "projectName": "recipe-manager",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-BoardEnhancedApplication<board-enhanced>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.chatgpt.code.board_enhanced.BoardEnhancedApplication",
+            "projectName": "board-enhanced",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }

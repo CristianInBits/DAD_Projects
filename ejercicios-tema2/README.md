@@ -11,6 +11,7 @@ Cada carpeta representa un proyecto independiente, generado con **Spring Initial
 ```
 ejercicios-tema2/
 ├── appointment-manager/    # Gestor de Citas Médicas @Service
+├── board-enhanced/         # Tablón de anuncios con gestión de sesión
 ├── book-library/           # Mini libreria con inyecciones 
 ├── customer-survey/        # Encuesta de Satisfacción
 ├── currency-converter/     # Conversor de Monedas
@@ -33,6 +34,7 @@ ejercicios-tema2/
 | Proyecto           | Descripción                                                                 |
 |--------------------|-----------------------------------------------------------------------------|
 | `appointment-manager`  | Gestor de citas médicas con alta, visualización y eliminación. Lógica separada en servicio `@Service`. |
+| `board-enhanced`       | Tablón de anuncios con gestión de sesión: bienvenida, nombre persistente por sesión y contador de anuncios. |
 | `book-library`     | Biblioteca de libros simple con creación, visualización y eliminación de libros. Usa servicios, rutas REST y plantillas Mustache. |
 | `currency-converter`   | Conversor de euros a USD, GBP o JPY usando un servicio Spring. Practica lógica de negocio separada con `@Service`. |
 | `customer-survey`  | Encuesta de satisfacción con comentarios anónimos, estadísticas y gestión de respuestas. Uso de servicio y formulario con lógica separada. |
