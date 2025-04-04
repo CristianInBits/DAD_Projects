@@ -6,10 +6,11 @@ Este bloque contiene una serie de proyectos prácticos centrados en la creación
 
 ## 📁 Proyectos incluidos
 
-| Carpeta       | Descripción                                                     |
-|---------------|-----------------------------------------------------------------|
-| `book-api/`   | API REST para gestionar libros favoritos (GET, POST, PUT, DELETE). |
-| _..._         | Se irán añadiendo más ejercicios próximamente.                 |
+| Carpeta       | Descripción                                                           |
+|---------------|-----------------------------------------------------------------------|
+| `book-api/`   | API REST para gestionar libros favoritos (GET, POST, PUT, DELETE).    |
+| `movie-api/`  | API REST para gestionar películas favoritas (GET, POST, PUT, DELETE). |
+| _..._         | Se irán añadiendo más ejercicios próximamente.                        |
 
 ---
 
