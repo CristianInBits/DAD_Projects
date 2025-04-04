@@ -19,6 +19,16 @@
             "projectName": "movie-api",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ItemApiApplication<item-api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.chatgpt.code.item_api.ItemApiApplication",
+            "projectName": "item-api",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
