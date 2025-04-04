@@ -1,0 +1,79 @@
+{
+  "info": {
+    "_postman_id": "c5939280-b4f9-4c57-a6ea-1727c1918c57",
+    "name": "Book API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "GET all books",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:8080/books/",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["books", ""]
+        }
+      }
+    },
+    {
+      "name": "GET book by ID",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:8080/books/1",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["books", "1"]
+        }
+      }
+    },
+    {
+      "name": "POST new book",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"title\": \"El nombre del viento\",\n  \"author\": \"Patrick Rothfuss\",\n  \"rating\": 5\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8080/books/",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["books", ""]
+        }
+      }
+    },
+    {
+      "name": "PUT replace book",
+      "request": {
+        "method": "PUT",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"title\": \"Libro actualizado\",\n  \"author\": \"Nuevo autor\",\n  \"rating\": 4\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8080/books/1",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["books", "1"]
+        }
+      }
+    },
+    {
+      "name": "DELETE book by ID",
+      "request": {
+        "method": "DELETE",
+        "url": {
+          "raw": "http://localhost:8080/books/1",
+          "host": ["localhost"],
+          "port": "8080",
+          "path": ["books", "1"]
+        }
+      }
+    }
+  ]
+}
