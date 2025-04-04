@@ -18,6 +18,7 @@ ejercicios-tema2/
 ├── forum-service/          # Mini foro con inyecciones
 ├── forum/                  # Mini foro de discusión
 ├── guestbook/              # Libro de visitas básico
+├── post-board-images/      # Tablón de anuncios con imágenes 
 ├── product-catalog/        # Catálogo de productos
 ├── recipe-manager/         # Gestor de Recetas de Cocina
 ├── session-demo/           # Session de usuario httpsession
@@ -41,6 +42,7 @@ ejercicios-tema2/
 | `forum-service`    | Versión estructurada del foro con Postservie e inyecciones                 |
 | `forum`            | Mini foro para publicar, ver y eliminar mensajes de discusión.             |
 | `guestbook`        | Permite a los usuarios dejar su nombre y un mensaje visible públicamente.  |
+| `post-board-images` | Tablón de anuncios con gestión de sesiones e imágenes. Cada usuario puede subir anuncios con una imagen asociada (formulario `multipart`). Las imágenes se guardan en disco y se sirven de forma dinámica. También incluye contador de publicaciones por sesión y mensaje de bienvenida personalizado. |
 | `product-catalog`  | Catálogo CRUD simple con nombre, descripción y precio.                     |
 | `recipe-manager`   | Gestor de recetas con CRUD completo, dificultad, edición, estadísticas y separación profesional de responsabilidades. |
 | `session-demo`     | Gestión de sesión con `HttpSession` para almacenar atributos por usuario.  |

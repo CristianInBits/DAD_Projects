@@ -149,6 +149,16 @@
             "projectName": "board-enhanced",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-PostBoardImagesApplication<post-board-images>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.chatgpt.code.post_board_images.PostBoardImagesApplication",
+            "projectName": "post-board-images",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
