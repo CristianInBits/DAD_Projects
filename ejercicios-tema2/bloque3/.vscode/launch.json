@@ -29,6 +29,16 @@
             "projectName": "item-api",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-TasksApiApplication<tasks-api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.chatgpt.code.tasks_api.TasksApiApplication",
+            "projectName": "tasks-api",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
