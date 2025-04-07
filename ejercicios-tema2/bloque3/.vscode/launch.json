@@ -39,6 +39,16 @@
             "projectName": "tasks-api",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-RecipeApiApplication<recipe-api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.chatgpt.code.recipe_api.RecipeApiApplication",
+            "projectName": "recipe-api",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
