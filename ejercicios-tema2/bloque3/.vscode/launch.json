@@ -49,6 +49,16 @@
             "projectName": "recipe-api",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ContactApiApplication<contact-api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.chatgpt.code.contact_api.ContactApiApplication",
+            "projectName": "contact-api",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }

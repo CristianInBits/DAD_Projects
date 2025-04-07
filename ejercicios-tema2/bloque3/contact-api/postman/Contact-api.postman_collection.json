@@ -1,0 +1,114 @@
+{
+    "info": {
+        "_postman_id": "d7b6a6c5-9c3a-4f0c-8410-123456789abc",
+        "name": "Contact API",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "GET All Contacts",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:8080/contacts/",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "contacts",
+                        ""
+                    ]
+                }
+            }
+        },
+        {
+            "name": "GET Contact by ID",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:8080/contacts/1",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "contacts",
+                        "1"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "POST Create Contact",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"name\": \"Charlie\",\n  \"email\": \"charlie@example.com\",\n  \"phone\": \"555123456\"\n}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/contacts/",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "contacts",
+                        ""
+                    ]
+                }
+            }
+        },
+        {
+            "name": "PUT Update Contact",
+            "request": {
+                "method": "PUT",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"name\": \"Charlie Updated\",\n  \"email\": \"charlie@new.com\",\n  \"phone\": \"999999999\"\n}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/contacts/1",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "contacts",
+                        "1"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "DELETE Contact",
+            "request": {
+                "method": "DELETE",
+                "url": {
+                    "raw": "http://localhost:8080/contacts/1",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "contacts",
+                        "1"
+                    ]
+                }
+            }
+        }
+    ]
+}
