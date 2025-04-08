@@ -1,0 +1,88 @@
+{
+    "info": {
+        "_postman_id": "a9b9debe-d84e-42aa-9396-d3d5e3c92b7d",
+        "name": "Student-Course API",
+        "description": "API REST to manage Students and Courses with bidirectional relationships.",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Get All Students",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/students",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "students"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Get Student by ID",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/students/1",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "students",
+                        "1"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Get All Courses",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/courses",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "courses"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Get Course by ID",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/api/courses/1",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "courses",
+                        "1"
+                    ]
+                }
+            }
+        }
+    ]
+}

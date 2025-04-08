@@ -14,6 +14,7 @@ Este bloque contiene una serie de proyectos prácticos centrados en la creación
 | `library-api` | API REST con Spring Boot que gestiona libros y autores, usando `@JsonView` |
 | `movie-api/` | API REST para gestionar películas favoritas (GET, POST, PUT, DELETE).|
 | `recipe-api` | API REST para gestionar recetas de cocina (GET, POST, PUT, DELETE). |
+| `studentcourse-api` | API REST con Spring Boot que gestiona estudiantes y cursos, usando `@JsonView` |
 | `tasks-api/`| API REST para gestionar una lista de tareas (GET, POST, PUT, DELETE).|
 | `tvseries-api` | API REST con Spring Boot que gestiona series y actores, usando `@JsonView` |
 | _..._ | Se irán añadiendo más ejercicios próximamente.|

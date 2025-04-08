@@ -79,6 +79,16 @@
             "projectName": "tvseries-api",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-StudentcourseApiApplication<studentcourse-api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.chatgpt.code.studentcourse_api.StudentcourseApiApplication",
+            "projectName": "studentcourse-api",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
