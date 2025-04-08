@@ -109,6 +109,16 @@
             "projectName": "bookclient-node",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DogApiApplication<dog-api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.chatgpt.code.dog_api.DogApiApplication",
+            "projectName": "dog-api",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
