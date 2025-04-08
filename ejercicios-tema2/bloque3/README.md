@@ -9,6 +9,8 @@ Este bloque contiene una serie de proyectos prácticos centrados en la creación
 | Carpeta       | Descripción                                                            |
 |---------------|------------------------------------------------------------------------|
 | `book-api/` | API REST para gestionar libros favoritos (GET, POST, PUT, DELETE).|
+| `bookclient-model/` | Cliente REST que consume Google Books API usando clases modelo. |
+| `bookclient-node/`  | Cliente REST que consume Google Books API usando nodos JSON (JsonNode). |
 | `contact-api/` | API REST para gestionar contactos (GET, POST, PUT, DELETE).|
 | `item-api/` | API REST para gestionar items de la compra (GET, POST, PUT, DELETE).|
 | `library-api` | API REST con Spring Boot que gestiona libros y autores, usando `@JsonView` |

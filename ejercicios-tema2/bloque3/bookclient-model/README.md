@@ -22,7 +22,7 @@ Este proyecto utiliza **RestTemplate** de Spring Boot junto con clases Java para
 
 ## 📦 Tecnologías
 
-- Java 17+
+- Java 24+
 - Spring Boot
 - `RestTemplate`
 - Jackson (para deserialización automática de JSON)

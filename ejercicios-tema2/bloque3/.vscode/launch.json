@@ -12,41 +12,11 @@
         },
         {
             "type": "java",
-            "name": "Spring Boot-MovieApiApplication<movie-api>",
+            "name": "Spring Boot-BookclientModelApplication<bookclient-model>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
-            "mainClass": "es.chatgpt.code.movie_api.MovieApiApplication",
-            "projectName": "movie-api",
-            "args": "",
-            "envFile": "${workspaceFolder}/.env"
-        },
-        {
-            "type": "java",
-            "name": "Spring Boot-ItemApiApplication<item-api>",
-            "request": "launch",
-            "cwd": "${workspaceFolder}",
-            "mainClass": "es.chatgpt.code.item_api.ItemApiApplication",
-            "projectName": "item-api",
-            "args": "",
-            "envFile": "${workspaceFolder}/.env"
-        },
-        {
-            "type": "java",
-            "name": "Spring Boot-TasksApiApplication<tasks-api>",
-            "request": "launch",
-            "cwd": "${workspaceFolder}",
-            "mainClass": "es.chatgpt.code.tasks_api.TasksApiApplication",
-            "projectName": "tasks-api",
-            "args": "",
-            "envFile": "${workspaceFolder}/.env"
-        },
-        {
-            "type": "java",
-            "name": "Spring Boot-RecipeApiApplication<recipe-api>",
-            "request": "launch",
-            "cwd": "${workspaceFolder}",
-            "mainClass": "es.chatgpt.code.recipe_api.RecipeApiApplication",
-            "projectName": "recipe-api",
+            "mainClass": "es.chatgpt.code.bookclient_model.BookclientModelApplication",
+            "projectName": "bookclient-model",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
         },
@@ -62,6 +32,16 @@
         },
         {
             "type": "java",
+            "name": "Spring Boot-ItemApiApplication<item-api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.chatgpt.code.item_api.ItemApiApplication",
+            "projectName": "item-api",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-LibraryApiApplication<library-api>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
@@ -72,11 +52,21 @@
         },
         {
             "type": "java",
-            "name": "Spring Boot-TvseriesApiApplication<tvseries-api>",
+            "name": "Spring Boot-MovieApiApplication<movie-api>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
-            "mainClass": "es.chatgpt.code.tvseries_api.TvseriesApiApplication",
-            "projectName": "tvseries-api",
+            "mainClass": "es.chatgpt.code.movie_api.MovieApiApplication",
+            "projectName": "movie-api",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-RecipeApiApplication<recipe-api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.chatgpt.code.recipe_api.RecipeApiApplication",
+            "projectName": "recipe-api",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
         },
@@ -92,11 +82,31 @@
         },
         {
             "type": "java",
-            "name": "Spring Boot-BookclientModelApplication<bookclient-model>",
+            "name": "Spring Boot-TasksApiApplication<tasks-api>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
-            "mainClass": "es.chatgpt.code.bookclient_model.BookclientModelApplication",
-            "projectName": "bookclient-model",
+            "mainClass": "es.chatgpt.code.tasks_api.TasksApiApplication",
+            "projectName": "tasks-api",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-TvseriesApiApplication<tvseries-api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.chatgpt.code.tvseries_api.TvseriesApiApplication",
+            "projectName": "tvseries-api",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-BookclientNodeApplication<bookclient-node>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.chatgpt.code.bookclient_node.BookclientNodeApplication",
+            "projectName": "bookclient-node",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
         }
