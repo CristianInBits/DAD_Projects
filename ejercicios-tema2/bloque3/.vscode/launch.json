@@ -89,6 +89,16 @@
             "projectName": "studentcourse-api",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-BookclientModelApplication<bookclient-model>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.chatgpt.code.bookclient_model.BookclientModelApplication",
+            "projectName": "bookclient-model",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }

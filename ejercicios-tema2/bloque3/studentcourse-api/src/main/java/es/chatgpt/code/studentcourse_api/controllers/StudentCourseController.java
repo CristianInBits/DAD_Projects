@@ -12,7 +12,6 @@ import com.fasterxml.jackson.annotation.JsonView;
 
 import es.chatgpt.code.studentcourse_api.models.Course;
 import es.chatgpt.code.studentcourse_api.models.Student;
-import es.chatgpt.code.studentcourse_api.models.Course.Students;
 import jakarta.annotation.PostConstruct;
 
 @RestController
