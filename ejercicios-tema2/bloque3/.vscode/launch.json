@@ -59,6 +59,16 @@
             "projectName": "contact-api",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-LibraryApiApplication<library-api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.chatgpt.code.library_api.LibraryApiApplication",
+            "projectName": "library-api",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }

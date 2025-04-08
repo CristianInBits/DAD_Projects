@@ -11,6 +11,7 @@ Este bloque contiene una serie de proyectos prácticos centrados en la creación
 | `book-api/` | API REST para gestionar libros favoritos (GET, POST, PUT, DELETE).|
 | `contact-api/` | API REST para gestionar contactos (GET, POST, PUT, DELETE).|
 | `item-api/` | API REST para gestionar items de la compra (GET, POST, PUT, DELETE).|
+| `library-api` | API REST con Spring Boot que gestiona libros y autores, usando `@JsonView` |
 | `movie-api/` | API REST para gestionar películas favoritas (GET, POST, PUT, DELETE).|
 | `recipe-api` | API REST para gestionar recetas de cocina (GET, POST, PUT, DELETE). |
 | `tasks-api/`| API REST para gestionar una lista de tareas (GET, POST, PUT, DELETE).|
