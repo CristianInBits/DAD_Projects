@@ -15,6 +15,7 @@ Este bloque contiene una serie de proyectos prácticos centrados en la creación
 | `movie-api/` | API REST para gestionar películas favoritas (GET, POST, PUT, DELETE).|
 | `recipe-api` | API REST para gestionar recetas de cocina (GET, POST, PUT, DELETE). |
 | `tasks-api/`| API REST para gestionar una lista de tareas (GET, POST, PUT, DELETE).|
+| `tvseries-api` | API REST con Spring Boot que gestiona series y actores, usando `@JsonView` |
 | _..._ | Se irán añadiendo más ejercicios próximamente.|
 
 ---

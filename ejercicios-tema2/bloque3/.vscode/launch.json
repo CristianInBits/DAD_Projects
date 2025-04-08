@@ -69,6 +69,16 @@
             "projectName": "library-api",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-TvseriesApiApplication<tvseries-api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.chatgpt.code.tvseries_api.TvseriesApiApplication",
+            "projectName": "tvseries-api",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
