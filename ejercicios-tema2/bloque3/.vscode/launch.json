@@ -149,6 +149,16 @@
             "projectName": "product-image-api",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DogImageApiApplication<dog-image-api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.chatgpt.code.dog_image_api.DogImageApiApplication",
+            "projectName": "dog-image-api",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }

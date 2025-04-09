@@ -13,6 +13,7 @@ Este bloque contiene una serie de proyectos prácticos centrados en la creación
 | `bookclient-node/`  | Cliente REST que consume Google Books API usando nodos JSON (JsonNode). |
 | `contact-api/` | API REST para gestionar contactos (GET, POST, PUT, DELETE).|
 | `dog-api/` | Cliente REST que consume Dog API usando FeignClient |
+| `dog-image-api/` | Cliente REST que consume Dog API usando clases modelo y guarda imágenes localmente |
 | `item-api/` | API REST para gestionar items de la compra (GET, POST, PUT, DELETE).|
 | `library-api` | API REST con Spring Boot que gestiona libros y autores, usando `@JsonView` |
 | `movie-api/` | API REST para gestionar películas favoritas (GET, POST, PUT, DELETE).|
