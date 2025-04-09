@@ -1,143 +1,157 @@
 {
-    "info": {
-        "_postman_id": "f7f12345-a44c-4a71-8dd3-c58569977fc6",
-        "name": "Posts with Image (Fixed)",
-        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
-    },
-    "item": [
-        {
-            "name": "CREATE Post",
-            "request": {
-                "method": "POST",
-                "header": [
-                    {
-                        "key": "Content-Type",
-                        "value": "application/json"
-                    }
-                ],
-                "url": {
-                    "raw": "http://localhost:8080/posts/",
-                    "protocol": "http",
-                    "host": [
-                        "localhost"
-                    ],
-                    "port": "8080",
-                    "path": [
-                        "posts"
-                    ]
-                },
-                "body": {
-                    "mode": "raw",
-                    "raw": "{ \"user\": \"Lucía\", \"title\": \"Tablet en venta\", \"text\": \"Buen estado\" }",
-                    "options": {
-                        "raw": {
-                            "language": "json"
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "name": "UPLOAD Image",
-            "request": {
-                "method": "POST",
-                "url": {
-                    "raw": "http://localhost:8080/posts/1/image",
-                    "protocol": "http",
-                    "host": [
-                        "localhost"
-                    ],
-                    "port": "8080",
-                    "path": [
-                        "posts",
-                        "1",
-                        "image"
-                    ]
-                },
-                "body": {
-                    "mode": "formdata",
-                    "formdata": [
-                        {
-                            "key": "imageFile",
-                            "type": "file",
-                            "src": "/ruta/a/tu/imagen.jpg"
-                        }
-                    ]
-                }
-            }
-        },
-        {
-            "name": "GET Posts",
-            "request": {
-                "method": "GET",
-                "url": {
-                    "raw": "http://localhost:8080/posts/",
-                    "protocol": "http",
-                    "host": [
-                        "localhost"
-                    ],
-                    "port": "8080",
-                    "path": [
-                        "posts"
-                    ]
-                }
-            }
-        },
-        {
-            "name": "DOWNLOAD Image",
-            "request": {
-                "method": "GET",
-                "url": {
-                    "raw": "http://localhost:8080/posts/1/image",
-                    "protocol": "http",
-                    "host": [
-                        "localhost"
-                    ],
-                    "port": "8080",
-                    "path": [
-                        "posts",
-                        "1",
-                        "image"
-                    ]
-                }
-            }
-        },
-        {
-            "name": "DELETE Image",
-            "request": {
-                "method": "DELETE",
-                "url": {
-                    "raw": "http://localhost:8080/posts/1/image",
-                    "protocol": "http",
-                    "host": [
-                        "localhost"
-                    ],
-                    "port": "8080",
-                    "path": [
-                        "posts",
-                        "1",
-                        "image"
-                    ]
-                }
-            }
-        },
-        {
-            "name": "DELETE Post",
-            "request": {
-                "method": "DELETE",
-                "url": {
-                    "raw": "http://localhost:8080/posts/1",
-                    "protocol": "http",
-                    "host": [
-                        "localhost"
-                    ],
-                    "port": "8080",
-                    "path": [
-                        "posts",
-                        "1"
-                    ]
-                }
-            }
-        }
-    ]
+	"info": {
+		"_postman_id": "d5a805f6-d9fc-497f-b223-2f80e474a919",
+		"name": "Posts with Image (Fixed)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42617410"
+	},
+	"item": [
+		{
+			"name": "CREATE Post",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"user\": \"Lucía\", \"title\": \"Tablet en venta\", \"text\": \"Buen estado\" }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/posts/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"posts",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UPLOAD Image",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "imageFile",
+							"type": "file",
+							"src": "/C:/Users/crist/Repositorios/DAD_Projects/ejercicios-tema2/bloque3/post-image-api/images/img.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/posts/1/image",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"posts",
+						"1",
+						"image"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Posts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/posts/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"posts",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DOWNLOAD Image",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/posts/1/image",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"posts",
+						"1",
+						"image"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE Image",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/posts/1/image",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"posts",
+						"1",
+						"image"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE Post",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/posts/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"posts",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
 }
