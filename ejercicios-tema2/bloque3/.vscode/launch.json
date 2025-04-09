@@ -119,6 +119,16 @@
             "projectName": "dog-api",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-RecipeDocApiApplication<recipe-doc-api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.chatgpt.code.recipe_doc_api.RecipeDocApiApplication",
+            "projectName": "recipe-doc-api",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
