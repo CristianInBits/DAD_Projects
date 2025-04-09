@@ -129,6 +129,16 @@
             "projectName": "recipe-doc-api",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-PostImageApiApplication<post-image-api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.chatgpt.code.post_image_api.PostImageApiApplication",
+            "projectName": "post-image-api",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }

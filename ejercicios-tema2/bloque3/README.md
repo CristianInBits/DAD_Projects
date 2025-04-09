@@ -16,6 +16,7 @@ Este bloque contiene una serie de proyectos prácticos centrados en la creación
 | `item-api/` | API REST para gestionar items de la compra (GET, POST, PUT, DELETE).|
 | `library-api` | API REST con Spring Boot que gestiona libros y autores, usando `@JsonView` |
 | `movie-api/` | API REST para gestionar películas favoritas (GET, POST, PUT, DELETE).|
+| `post-image-api` | API REST que gestiona archivos de imágenes (GET, POST, PUT, DELETE) |
 | `recipe-api` | API REST para gestionar recetas de cocina (GET, POST, PUT, DELETE). |
 | `recipe-doc-api` | API REST que gestiona recetas y está documentada con SpringDoc y Swagger UI |
 | `studentcourse-api` | API REST con Spring Boot que gestiona estudiantes y cursos, usando `@JsonView` |
