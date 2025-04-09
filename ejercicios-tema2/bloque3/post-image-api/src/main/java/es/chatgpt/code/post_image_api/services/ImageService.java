@@ -1,5 +1,6 @@
 package es.chatgpt.code.post_image_api.services;
 
+import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.nio.file.*;
@@ -13,7 +14,7 @@ import org.springframework.web.multipart.MultipartFile;
 @Service
 public class ImageService {
 
-    private static final Path FILES_FOLDER = Paths.get(System.getProperty("user.dir"), "images");
+    private static final Path FILES_FOLDER = Paths.get(new File(".").getAbsolutePath(), "post-image-api", "images");
 
     private Path createFilePath(long id, Path folder) {
         return folder.resolve("image-" + id + ".jpg");
