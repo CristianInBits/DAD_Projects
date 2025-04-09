@@ -139,6 +139,16 @@
             "projectName": "post-image-api",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ProductImageApiApplication<product-image-api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.chatgpt.code.product_image_api.ProductImageApiApplication",
+            "projectName": "product-image-api",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }

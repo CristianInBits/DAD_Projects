@@ -1,0 +1,150 @@
+{
+    "info": {
+        "_postman_id": "d9f5e0f4-3b5a-4e61-a9b3-12dcd8db460c",
+        "name": "Product Image API",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "GET Products",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "{{baseUrl}}/products/",
+                    "host": [
+                        "{{baseUrl}}"
+                    ],
+                    "path": [
+                        "products",
+                        ""
+                    ]
+                }
+            }
+        },
+        {
+            "name": "GET Product by ID",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "{{baseUrl}}/products/1",
+                    "host": [
+                        "{{baseUrl}}"
+                    ],
+                    "path": [
+                        "products",
+                        "1"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "CREATE Product",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"name\": \"Tablet\", \"description\": \"10-inch display tablet with stylus\"}"
+                },
+                "url": {
+                    "raw": "{{baseUrl}}/products/",
+                    "host": [
+                        "{{baseUrl}}"
+                    ],
+                    "path": [
+                        "products",
+                        ""
+                    ]
+                }
+            }
+        },
+        {
+            "name": "UPLOAD Image",
+            "request": {
+                "method": "POST",
+                "body": {
+                    "mode": "formdata",
+                    "formdata": [
+                        {
+                            "key": "imageFile",
+                            "type": "file",
+                            "src": "/path/to/your/image.jpg"
+                        }
+                    ]
+                },
+                "url": {
+                    "raw": "{{baseUrl}}/products/1/image",
+                    "host": [
+                        "{{baseUrl}}"
+                    ],
+                    "path": [
+                        "products",
+                        "1",
+                        "image"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "DOWNLOAD Image",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "{{baseUrl}}/products/1/image",
+                    "host": [
+                        "{{baseUrl}}"
+                    ],
+                    "path": [
+                        "products",
+                        "1",
+                        "image"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "DELETE Image",
+            "request": {
+                "method": "DELETE",
+                "url": {
+                    "raw": "{{baseUrl}}/products/1/image",
+                    "host": [
+                        "{{baseUrl}}"
+                    ],
+                    "path": [
+                        "products",
+                        "1",
+                        "image"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "DELETE Product",
+            "request": {
+                "method": "DELETE",
+                "url": {
+                    "raw": "{{baseUrl}}/products/1",
+                    "host": [
+                        "{{baseUrl}}"
+                    ],
+                    "path": [
+                        "products",
+                        "1"
+                    ]
+                }
+            }
+        }
+    ],
+    "variable": [
+        {
+            "key": "baseUrl",
+            "value": "http://localhost:8080"
+        }
+    ]
+}
