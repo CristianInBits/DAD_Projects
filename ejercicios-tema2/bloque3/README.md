@@ -15,6 +15,7 @@ Este bloque contiene una serie de proyectos prácticos centrados en la creación
 | `dog-api/` | Cliente REST que consume Dog API usando FeignClient |
 | `dog-image-api/` | Cliente REST que consume Dog API usando clases modelo y guarda imágenes localmente |
 | `item-api/` | API REST para gestionar items de la compra (GET, POST, PUT, DELETE).|
+| `item-filter-api/` | API REST para gestionar items con filtro de precio (GET, POST, PUT, DELETE).|
 | `library-api` | API REST con Spring Boot que gestiona libros y autores, usando `@JsonView` |
 | `movie-api/` | API REST para gestionar películas favoritas (GET, POST, PUT, DELETE).|
 | `post-image-api` | API REST que gestiona archivos de imágenes (GET, POST, PUT, DELETE) |

@@ -159,6 +159,16 @@
             "projectName": "dog-image-api",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ItemFilterApiApplication<item-filter-api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.chatgpt.code.item_filter_api.ItemFilterApiApplication",
+            "projectName": "item-filter-api",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }

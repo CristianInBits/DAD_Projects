@@ -1,0 +1,118 @@
+{
+    "info": {
+        "name": "Item Filter API",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Get All Items",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/items/",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "items",
+                        ""
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Get Items Below Price",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/items/?priceBelow=2.0",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "items",
+                        ""
+                    ],
+                    "query": [
+                        {
+                            "key": "priceBelow",
+                            "value": "2.0"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Get Item by ID",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/items/1",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "items",
+                        "1"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Create Item",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"itemName\": \"Juice\", \"price\": 1.8, \"checked\": false}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": {
+                    "raw": "http://localhost:8080/items/",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "items",
+                        ""
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Delete Item",
+            "request": {
+                "method": "DELETE",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/items/1",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "items",
+                        "1"
+                    ]
+                }
+            }
+        }
+    ]
+}
