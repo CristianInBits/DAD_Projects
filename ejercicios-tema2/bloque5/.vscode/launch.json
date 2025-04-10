@@ -19,6 +19,16 @@
             "projectName": "ejemplo2-db",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Ejemplo3DbApplication<ejemplo3-db>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.chatgpt.code.ejemplo3_db.Ejemplo3DbApplication",
+            "projectName": "ejemplo3-db",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
