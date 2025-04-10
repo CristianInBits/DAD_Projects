@@ -6,10 +6,11 @@ Este bloque contiene ejercicios prácticos sobre integración de **bases de dato
 
 ## 📁 Proyectos incluidos
 
-| Carpeta              | Descripción                                                               |
-|----------------------|-----------------------------------------------------------------------------|
+| Carpeta              | Descripción                                                                |
+|----------------------|----------------------------------------------------------------------------|
 | `ejemplo1-db/`       | Uso básico de JPA con repositorio y operaciones CRUD por consola Java.     |
-| _..._                | Se irán añadiendo nuevos ejemplos con más funcionalidades y relaciones.     |
+| `ejemplo2-db/`       | API REST CRUD para gestionar posts persistentes con JPA + H2 + Postman.    |
+| _..._                | Se irán añadiendo nuevos ejemplos con más funcionalidades y relaciones.    |
 
 ---
 
@@ -29,7 +30,22 @@ Este bloque contiene ejercicios prácticos sobre integración de **bases de dato
 2. Ejecuta la clase `Application.java` o la clase que implemente `CommandLineRunner`
 3. Observa la salida por consola o accede a la interfaz HTTP si está disponible
 
-> En algunos ejercicios se puede acceder a la consola web de H2 en: `http://localhost:8080/h2-console`
+---
+
+## 🛠️ Consola web H2
+
+En algunos proyectos, puedes acceder a la consola web de H2 para inspeccionar la base de datos:
+
+- URL: `http://localhost:8080/h2-console`
+- JDBC URL: `jdbc:h2:mem:testdb`
+- Driver: `org.h2.Driver`
+- User: `sa` (por defecto)
+
+Para activarla asegúrate de tener en `application.properties`:
+
+```properties
+spring.h2.console.enabled=true
+```
 
 ---
 
@@ -41,5 +57,3 @@ Este bloque contiene ejercicios prácticos sobre integración de **bases de dato
 - Realizar operaciones CRUD sobre entidades
 - Aprender a trabajar con consultas derivadas del nombre de métodos
 - Acceder y modificar datos desde controladores o servicios
-
----
