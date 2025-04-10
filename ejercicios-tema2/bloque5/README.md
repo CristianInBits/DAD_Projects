@@ -10,6 +10,8 @@ Este bloque contiene ejercicios prácticos sobre integración de **bases de dato
 |----------------------|----------------------------------------------------------------------------|
 | `ejemplo1-db/`       | Uso básico de JPA con repositorio y operaciones CRUD por consola Java.     |
 | `ejemplo2-db/`       | API REST CRUD para gestionar posts persistentes con JPA + H2 + Postman.    |
+| `ejemplo3-db/`       | API REST con H2 y manejo global de errores con @ControllerAdvice.          |
+| `ejemplo4-db/`       | API REST con JPA y manejo conciso de Optional usando ResponseEntity.of()   |
 | _..._                | Se irán añadiendo nuevos ejemplos con más funcionalidades y relaciones.    |
 
 ---
