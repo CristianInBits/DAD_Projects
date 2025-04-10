@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-Ejemplo1DbApplication<ejemplo1-db>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.chatgpt.code.ejemplo1_db.Ejemplo1DbApplication",
+            "projectName": "ejemplo1-db",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
