@@ -1,4 +1,4 @@
-# 📂 Bloque 5 - Bases de Datos SQL en Spring
+# 🗃️ Bloque 5 - Bases de Datos SQL en Spring
 
 Este bloque contiene ejercicios prácticos sobre integración de **bases de datos relacionales** en aplicaciones **Spring Boot**, utilizando **Spring Data JPA**. Cada carpeta representa un proyecto independiente centrado en conceptos como persistencia de entidades, repositorios, consultas, relaciones y mapeo objeto-relacional (ORM).
 
