@@ -12,6 +12,7 @@ Este bloque contiene ejercicios prácticos sobre integración de **bases de dato
 | `ejemplo2-db/`       | API REST CRUD para gestionar posts persistentes con JPA + H2 + Postman.    |
 | `ejemplo3-db/`       | API REST con H2 y manejo global de errores con @ControllerAdvice.          |
 | `ejemplo4-db/`       | API REST con JPA y manejo conciso de Optional usando ResponseEntity.of()   |
+| `library-manager-api/` | API REST para gestionar libros en una biblioteca con filtros por autor y persistencia con JPA. |
 | _..._                | Se irán añadiendo nuevos ejemplos con más funcionalidades y relaciones.    |
 
 ---

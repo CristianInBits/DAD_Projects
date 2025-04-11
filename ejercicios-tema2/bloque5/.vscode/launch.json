@@ -29,6 +29,16 @@
             "projectName": "ejemplo3-db",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-LibraryManagerApiApplication<library-manager-api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.chatgpt.code.library_manager_api.LibraryManagerApiApplication",
+            "projectName": "library-manager-api",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
