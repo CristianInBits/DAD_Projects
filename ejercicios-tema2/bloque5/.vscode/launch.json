@@ -39,6 +39,16 @@
             "projectName": "library-manager-api",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ItemManagerDbApiApplication<item-manager-db-api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.chatgpt.code.item_manager_db_api.ItemManagerDbApiApplication",
+            "projectName": "item-manager-db-api",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
