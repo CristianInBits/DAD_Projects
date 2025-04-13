@@ -49,6 +49,16 @@
             "projectName": "item-manager-db-api",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MovieManagerDbApiApplication<movie-manager-db-api>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.chatgpt.code.movie_manager_db_api.MovieManagerDbApiApplication",
+            "projectName": "movie-manager-db-api",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
