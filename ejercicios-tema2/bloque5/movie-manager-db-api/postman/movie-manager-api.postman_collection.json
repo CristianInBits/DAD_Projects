@@ -51,7 +51,7 @@
                 ],
                 "body": {
                     "mode": "raw",
-                    "raw": "{\n  \"title\": \"Inception\",\n  \"director\": \"Christopher Nolan\",\n  \"year\": 2010\n}"
+                    "raw": "{\n  \"title\": \"Inception\",\n  \"director\": \"Christopher Nolan\",\n  \"releaseYear\": 2010\n}"
                 },
                 "url": {
                     "raw": "http://localhost:8080/movies/",
@@ -78,7 +78,7 @@
                 ],
                 "body": {
                     "mode": "raw",
-                    "raw": "{\n  \"title\": \"The Dark Knight\",\n  \"director\": \"Christopher Nolan\",\n  \"year\": 2008\n}"
+                    "raw": "{\n  \"title\": \"The Dark Knight\",\n  \"director\": \"Christopher Nolan\",\n  \"releaseYear\": 2008\n}"
                 },
                 "url": {
                     "raw": "http://localhost:8080/movies/1",

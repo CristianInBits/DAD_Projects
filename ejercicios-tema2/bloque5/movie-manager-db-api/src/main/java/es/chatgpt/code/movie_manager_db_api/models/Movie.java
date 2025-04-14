@@ -14,15 +14,15 @@ public class Movie {
 
     private String title;
     private String director;
-    private int year;
+    private int releaseYear;
 
     public Movie() {
     }
 
-    public Movie(String title, String director, int year) {
+    public Movie(String title, String director, int releaseYear) {
         this.title = title;
         this.director = director;
-        this.year = year;
+        this.releaseYear = releaseYear;
     }
 
     public Long getId() {
@@ -49,16 +49,17 @@ public class Movie {
         this.director = director;
     }
 
-    public int getYear() {
-        return year;
+    public int getreleaseYear() {
+        return releaseYear;
     }
 
-    public void setYear(int year) {
-        this.year = year;
+    public void setreleaseYear(int releaseYear) {
+        this.releaseYear = releaseYear;
     }
 
     @Override
     public String toString() {
-        return "Movie [id=" + id + ", title=" + title + ", director=" + director + ", year=" + year + "]";
+        return "Movie [id=" + id + ", title=" + title + ", director=" + director + ", releaseYear=" + releaseYear
+                + "]";
     }
 }
