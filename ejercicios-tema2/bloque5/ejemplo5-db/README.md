@@ -28,19 +28,20 @@ ejemplo5-db/
 │   └── main/
 │       ├── java/
 │       │   └── es/
-│       │       └── codeurjc/
-│       │           └── board/
-│       │               ├── controllers/
-│       │               │   ├── advice/
-│       │               │   │       └── NoSuchElementExceptionCA.java
-│       │               │   └── SchoolController.java
-│       │               ├── models/
-│       │               │   ├── Project.java
-│       │               │   └── Student.java
-│       │               ├── repository/
-│       │               │    ├── ProjectRepository.java
-│       │               │    └── StudentRepository.java
-│       │               └── Application.java
+│       │       └── chatgpt/
+│       │           └── code/
+│       │                └── ejemplo5_db/
+│       │                    ├── controllers/
+│       │                    │   ├── advice/
+│       │                    │   │       └── NoSuchElementExceptionCA.java
+│       │                    │   └── SchoolController.java
+│       │                    ├── models/
+│       │                    │   ├── Project.java
+│       │                    │   └── Student.java
+│       │                    ├── repository/
+│       │                    │    ├── ProjectRepository.java
+│       │                    │    └── StudentRepository.java
+│       │                    └── Application.java
 │       └── resources/
 │           └── application.properties
 ├── postman/

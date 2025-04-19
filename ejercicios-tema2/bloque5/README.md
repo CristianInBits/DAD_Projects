@@ -13,6 +13,7 @@ Este bloque contiene ejercicios prácticos sobre integración de **bases de dato
 | `ejemplo3-db/`           | API REST con H2 y manejo global de errores con `@ControllerAdvice`.                                           |
 | `ejemplo4-db/`           | API REST con JPA y manejo conciso de `Optional` usando `ResponseEntity.of()`.                                 |
 | `ejemplo5-db/`           | API REST que ilustra una **relación 1:1 unidireccional** (`Student` → `Project`) sin cascada, con H2 y Postman. |
+| `ejemplo6-db/`       | API REST con relación 1:1 unidireccional y `cascade = ALL` (Student ↔ Project) |
 | `item-manager-db-api/`   | API REST para gestionar items con base de datos H2, JPA y manejo de errores.                                  |
 | `library-manager-api/`   | API REST para gestionar libros en una biblioteca con filtros por autor y persistencia con JPA.                |
 | `movie-manager-db-api/`  | API REST para gestionar películas, usando JPA + H2 + `@ControllerAdvice`.                                     |
