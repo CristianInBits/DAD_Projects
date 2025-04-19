@@ -1,27 +1,28 @@
 # 🗃️ Bloque 5 - Bases de Datos SQL en Spring
 
-Este bloque contiene ejercicios prácticos sobre integración de **bases de datos relacionales** en aplicaciones **Spring Boot**, utilizando **Spring Data JPA**. Cada carpeta representa un proyecto independiente centrado en conceptos como persistencia de entidades, repositorios, consultas, relaciones y mapeo objeto-relacional (ORM).
+Este bloque contiene ejercicios prácticos sobre integración de **bases de datos relacionales** en aplicaciones **Spring Boot**, utilizando **Spring Data JPA**. Cada carpeta representa un proyecto independiente centrado en conceptos como persistencia de entidades, repositorios, consultas, relaciones y mapeo objeto‑relacional (ORM).
 
 ---
 
 ## 📁 Proyectos incluidos
 
-| Carpeta              | Descripción                                                                |
-|----------------------|----------------------------------------------------------------------------|
-| `ejemplo1-db/`       | Uso básico de JPA con repositorio y operaciones CRUD por consola Java.     |
-| `ejemplo2-db/`       | API REST CRUD para gestionar posts persistentes con JPA + H2 + Postman.    |
-| `ejemplo3-db/`       | API REST con H2 y manejo global de errores con @ControllerAdvice.          |
-| `ejemplo4-db/`       | API REST con JPA y manejo conciso de Optional usando ResponseEntity.of()   |
-| `item-manager-db-api/` | API REST para gestionar items con base de datos H2, JPA y manejo de errores. |
-| `library-manager-api/` | API REST para gestionar libros en una biblioteca con filtros por autor y persistencia con JPA. |
-| `movie-manager-db-api/` | API REST para gestionar películas, usando JPA + H2 + `@ControllerAdvice` |
-| _..._                | Se irán añadiendo nuevos ejemplos con más funcionalidades y relaciones.    |
+| Carpeta                  | Descripción                                                                                                   |
+|--------------------------|---------------------------------------------------------------------------------------------------------------|
+| `ejemplo1-db/`           | Uso básico de JPA con repositorio y operaciones CRUD por consola Java.                                        |
+| `ejemplo2-db/`           | API REST CRUD para gestionar posts persistentes con JPA + H2 + Postman.                                       |
+| `ejemplo3-db/`           | API REST con H2 y manejo global de errores con `@ControllerAdvice`.                                           |
+| `ejemplo4-db/`           | API REST con JPA y manejo conciso de `Optional` usando `ResponseEntity.of()`.                                 |
+| `ejemplo5-db/`           | API REST que ilustra una **relación 1:1 unidireccional** (`Student` → `Project`) sin cascada, con H2 y Postman. |
+| `item-manager-db-api/`   | API REST para gestionar items con base de datos H2, JPA y manejo de errores.                                  |
+| `library-manager-api/`   | API REST para gestionar libros en una biblioteca con filtros por autor y persistencia con JPA.                |
+| `movie-manager-db-api/`  | API REST para gestionar películas, usando JPA + H2 + `@ControllerAdvice`.                                     |
+| _..._                    | Se irán añadiendo nuevos ejemplos con más funcionalidades y relaciones.                                       |
 
 ---
 
 ## ⚙️ Tecnologías utilizadas
 
-- Java 24+
+- Java 24+
 - Spring Boot
 - Spring Data JPA
 - H2 Database (en memoria)
@@ -31,9 +32,9 @@ Este bloque contiene ejercicios prácticos sobre integración de **bases de dato
 
 ## ▶️ Ejecución de los ejercicios
 
-1. Abre la carpeta del ejercicio (por ejemplo, `ejemplo1-db/`)
-2. Ejecuta la clase `Application.java` o la clase que implemente `CommandLineRunner`
-3. Observa la salida por consola o accede a la interfaz HTTP si está disponible
+1. Abre la carpeta del ejercicio (por ejemplo, `ejemplo1-db/`).
+2. Ejecuta la clase `Application.java` o la clase que implemente `CommandLineRunner`.
+3. Observa la salida por consola o accede a la interfaz HTTP si está disponible.
 
 ---
 
