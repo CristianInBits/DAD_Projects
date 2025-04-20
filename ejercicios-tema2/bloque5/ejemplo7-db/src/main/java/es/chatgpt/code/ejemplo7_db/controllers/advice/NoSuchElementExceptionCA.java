@@ -1,4 +1,4 @@
-package es.chatgpt.code.ejemplo7_db.models;
+package es.chatgpt.code.ejemplo7_db.controllers.advice;
 
 import java.util.NoSuchElementException;
 
