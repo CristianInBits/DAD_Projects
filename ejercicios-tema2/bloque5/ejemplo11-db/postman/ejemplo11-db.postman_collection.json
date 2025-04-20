@@ -1,0 +1,223 @@
+{
+    "info": {
+        "_postman_id": "11e1bada-7eed-4e77-aa11-0b11cafe1234",
+        "name": "Posts & Comments API (ejemplo11-db)",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Get All Posts",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/posts/",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "posts",
+                        ""
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Get Post by ID",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/posts/1",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "posts",
+                        "1"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Create Post",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"username\": \"Pepe\",\n  \"title\": \"Vendo moto\",\n  \"text\": \"Muy barata\"\n}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/posts/",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "posts",
+                        ""
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Replace Post",
+            "request": {
+                "method": "PUT",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"username\": \"Pepe\",\n  \"title\": \"Vendo moto revisada\",\n  \"text\": \"Precio negociable\"\n}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/posts/1",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "posts",
+                        "1"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Delete Post",
+            "request": {
+                "method": "DELETE",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/posts/1",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "posts",
+                        "1"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Get Comment",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/posts/1/comments/1",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "posts",
+                        "1",
+                        "comments",
+                        "1"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Add Comment",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"username\": \"Laura\",\n  \"comment\": \"¡Interesante!\"\n}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/posts/1/comments",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "posts",
+                        "1",
+                        "comments"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Replace Comment",
+            "request": {
+                "method": "PUT",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"username\": \"Laura\",\n  \"comment\": \"Comentario actualizado\"\n}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/posts/1/comments/1",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "posts",
+                        "1",
+                        "comments",
+                        "1"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Delete Comment",
+            "request": {
+                "method": "DELETE",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/posts/1/comments/1",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "posts",
+                        "1",
+                        "comments",
+                        "1"
+                    ]
+                }
+            }
+        }
+    ]
+}
