@@ -1,0 +1,135 @@
+{
+    "info": {
+        "_postman_id": "postman-collection-id-compare-queries",
+        "name": "Comparativa Consultas (Spring Data)",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "GET - Todos los posts (Derived)",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:8080/posts/derived",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "posts",
+                        "derived"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "GET - Filtrar por username (Derived)",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:8080/posts/derived?username=Pepe",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "posts",
+                        "derived"
+                    ],
+                    "query": [
+                        {
+                            "key": "username",
+                            "value": "Pepe"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "name": "GET - Todos los posts (JPQL)",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:8080/posts/jpql",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "posts",
+                        "jpql"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "GET - Filtrar por username (JPQL)",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:8080/posts/jpql?username=Pepe",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "posts",
+                        "jpql"
+                    ],
+                    "query": [
+                        {
+                            "key": "username",
+                            "value": "Pepe"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "name": "GET - Todos o filtrado (JPQL opcional)",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:8080/posts/jpql-optional",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "posts",
+                        "jpql-optional"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "GET - Filtrar por username (JPQL opcional)",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:8080/posts/jpql-optional?username=Pepe",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "posts",
+                        "jpql-optional"
+                    ],
+                    "query": [
+                        {
+                            "key": "username",
+                            "value": "Pepe"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

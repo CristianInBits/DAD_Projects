@@ -8,6 +8,7 @@ Este bloque contiene ejercicios prácticos sobre integración de **bases de dato
 
 | Carpeta                  | Descripción                                                                                                   |
 |--------------------------|---------------------------------------------------------------------------------------------------------------|
+| `comparativa-consultas/` | Comparativa entre métodos derivados y consultas JPQL (con y sin parámetros opcionales) |
 | `ejemplo1-db/`           | Uso básico de JPA con repositorio y operaciones CRUD por consola Java.                                        |
 | `ejemplo2-db/`           | API REST CRUD para gestionar posts persistentes con JPA + H2 + Postman.                                       |
 | `ejemplo3-db/`           | API REST con H2 y manejo global de errores con `@ControllerAdvice`.                                           |

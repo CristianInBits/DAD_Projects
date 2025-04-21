@@ -159,6 +159,16 @@
             "projectName": "ejemplo14-db",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ComparativaConsultasApplication<comparativa-consultas>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.chatgpt.code.comparativa_consultas.ComparativaConsultasApplication",
+            "projectName": "comparativa-consultas",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
