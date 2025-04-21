@@ -20,6 +20,7 @@ Este bloque contiene ejercicios prácticos sobre integración de **bases de dato
 | `ejemplo10-db/`          | API REST con relación 1:N bidireccional (Team ↔ Player) y serialización segura con `@JsonIgnore`              |
 | `ejemplo11-db/`          | API REST con relación 1:N bidireccional (Post ↔ Comment) usando cascada y orphanRemoval                       |
 | `ejemplo12-db/`          | API REST con relación M:N bidireccional (Team ↔ Player) y proyecciones `@JsonView`                            |
+| `ejemplo13-db/`      | API REST con consultas derivadas (`findByUsername`, `findByTitle`) y filtro opcional en URL |
 | `item-manager-db-api/`   | API REST para gestionar items con base de datos H2, JPA y manejo de errores.                                  |
 | `library-manager-api/`   | API REST para gestionar libros en una biblioteca con filtros por autor y persistencia con JPA.                |
 | `movie-manager-db-api/`  | API REST para gestionar películas, usando JPA + H2 + `@ControllerAdvice`.                                     |

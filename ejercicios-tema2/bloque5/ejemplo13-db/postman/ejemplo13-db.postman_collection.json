@@ -1,0 +1,51 @@
+{
+    "info": {
+        "_postman_id": "13131313-14cd-15ef-16ab-171819202122",
+        "name": "Posts API (ejemplo13-db)",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Get All Posts",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        ""
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Get Posts by Username",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/?username=Pepe",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        ""
+                    ],
+                    "query": [
+                        {
+                            "key": "username",
+                            "value": "Pepe"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
