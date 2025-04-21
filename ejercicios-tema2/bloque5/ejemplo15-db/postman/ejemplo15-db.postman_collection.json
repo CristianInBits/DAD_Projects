@@ -1,0 +1,225 @@
+{
+    "info": {
+        "_postman_id": "example15-collection-id",
+        "name": "Ejemplo15-db - Posts y Comments con JPQL",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "GET - Todos los posts o filtrado por comment user",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:8080/posts/?commentsUser=Juan",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "posts",
+                        ""
+                    ],
+                    "query": [
+                        {
+                            "key": "commentsUser",
+                            "value": "Juan"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "name": "GET - Post por ID",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:8080/posts/1",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "posts",
+                        "1"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "POST - Crear nuevo post",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"username\": \"Ana\",\n  \"title\": \"Vendo libro\",\n  \"text\": \"Usado pero en buen estado\"\n}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/posts/",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "posts",
+                        ""
+                    ]
+                }
+            }
+        },
+        {
+            "name": "PUT - Reemplazar post",
+            "request": {
+                "method": "PUT",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"username\": \"Ana\",\n  \"title\": \"Libro actualizado\",\n  \"text\": \"Nuevo texto\"\n}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/posts/1",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "posts",
+                        "1"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "DELETE - Borrar post",
+            "request": {
+                "method": "DELETE",
+                "url": {
+                    "raw": "http://localhost:8080/posts/1",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "posts",
+                        "1"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "POST - Añadir comentario a post",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"username\": \"Laura\",\n  \"comment\": \"Interesada en la moto\"\n}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/posts/1/comments/",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "posts",
+                        "1",
+                        "comments",
+                        ""
+                    ]
+                }
+            }
+        },
+        {
+            "name": "GET - Comentario por ID",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:8080/posts/1/comments/2",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "posts",
+                        "1",
+                        "comments",
+                        "2"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "PUT - Actualizar comentario",
+            "request": {
+                "method": "PUT",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"username\": \"Laura\",\n  \"comment\": \"Ya no me interesa\"\n}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/posts/1/comments/2",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "posts",
+                        "1",
+                        "comments",
+                        "2"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "DELETE - Borrar comentario",
+            "request": {
+                "method": "DELETE",
+                "url": {
+                    "raw": "http://localhost:8080/posts/1/comments/2",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "posts",
+                        "1",
+                        "comments",
+                        "2"
+                    ]
+                }
+            }
+        }
+    ]
+}
