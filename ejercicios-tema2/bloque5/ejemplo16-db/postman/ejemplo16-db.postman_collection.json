@@ -1,0 +1,66 @@
+{
+    "info": {
+        "_postman_id": "postman-collection-id-ejemplo16",
+        "name": "Ejemplo 16 - Torneos y Equipos (JPQL)",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "GET - Torneos por equipo",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:8080/tournaments/team/1",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "tournaments",
+                        "team",
+                        "1"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "GET - Equipos por torneo",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:8080/teams/tournament/1",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "teams",
+                        "tournament",
+                        "1"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "GET - Partidos por torneo",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:8080/matches/tournament/1",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "matches",
+                        "tournament",
+                        "1"
+                    ]
+                }
+            }
+        }
+    ]
+}
