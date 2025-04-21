@@ -1,0 +1,69 @@
+{
+    "info": {
+        "_postman_id": "14141414-abcd-efef-1313-987654321000",
+        "name": "Teams & Players API (ejemplo14-db)",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Get All Teams",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:8080/teams/",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "teams",
+                        ""
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Get Teams by Name",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:8080/teams/?name=FC%20Barcelona",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "teams",
+                        ""
+                    ],
+                    "query": [
+                        {
+                            "key": "name",
+                            "value": "FC Barcelona"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Get Player by ID",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:8080/players/1",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "players",
+                        "1"
+                    ]
+                }
+            }
+        }
+    ]
+}
