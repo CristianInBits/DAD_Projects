@@ -25,8 +25,9 @@ Este bloque contiene ejercicios prácticos sobre integración de **bases de dato
 | `ejemplo14-db/`      | Relación M:N bidireccional entre Player y Team con `@JsonView` y filtro con `@Query` |
 | `ejemplo15-db/`        | Gestión de posts y comentarios con relaciones 1:N, JPQL y cascada + orphan removal |
 | `ejemplo16-db/`       | Consultas JPQL avanzadas sobre relaciones indirectas entre equipos, partidos y torneos. |
-| `item-manager-db-api/`   | API REST para gestionar items con base de datos H2, JPA y manejo de errores.                                  |
 | `ejemplo17-db/`       | API REST con relación 1:N y consultas dinámicas usando QueryDSL para filtrar por comentarios. |
+| `ejemplo18-db/`       | API REST con paginación y ordenación utilizando Spring Data JPA y Pageable. |
+| `item-manager-db-api/`   | API REST para gestionar items con base de datos H2, JPA y manejo de errores.                                  |
 | `library-manager-api/`   | API REST para gestionar libros en una biblioteca con filtros por autor y persistencia con JPA.                |
 | `movie-manager-db-api/`  | API REST para gestionar películas, usando JPA + H2 + `@ControllerAdvice`.                                     |
 | _..._                    | Se irán añadiendo nuevos ejemplos con más funcionalidades y relaciones.                                       |

@@ -1,0 +1,93 @@
+{
+    "info": {
+        "_postman_id": "postman-collection-id-pagination-posts",
+        "name": "Posts API con Paginación (ejemplo18-db)",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "GET - Todos los posts paginados",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:8080/posts/?page=0&size=2",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "posts",
+                        ""
+                    ],
+                    "query": [
+                        {
+                            "key": "page",
+                            "value": "0"
+                        },
+                        {
+                            "key": "size",
+                            "value": "2"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "name": "GET - Filtrar por username (Pepe) paginado",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:8080/posts/?username=Pepe&page=0&size=2",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "posts",
+                        ""
+                    ],
+                    "query": [
+                        {
+                            "key": "username",
+                            "value": "Pepe"
+                        },
+                        {
+                            "key": "page",
+                            "value": "0"
+                        },
+                        {
+                            "key": "size",
+                            "value": "2"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "name": "GET - Posts ordenados por username desc",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:8080/posts/?sort=username,desc",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "posts",
+                        ""
+                    ],
+                    "query": [
+                        {
+                            "key": "sort",
+                            "value": "username,desc"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
