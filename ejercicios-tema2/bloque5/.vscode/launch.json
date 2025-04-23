@@ -229,6 +229,16 @@
             "projectName": "ejemplo19-db",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-PostPaginationWebApplication<post-pagination-web>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.chatgpt.code.post_pagination_web.PostPaginationWebApplication",
+            "projectName": "post-pagination-web",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }

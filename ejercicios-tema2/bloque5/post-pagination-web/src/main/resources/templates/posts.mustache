@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Posts Paginados</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #f9f9f9;
+        }
+        .pagination {
+            margin-top: 20px;
+        }
+        .pagination a {
+            margin-right: 10px;
+            text-decoration: none;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Listado de Posts</h1>
+
+    <ul>
+        {{#posts}}
+            <li>
+                <strong>{{title}}</strong><br>
+                Autor: {{username}}<br>
+                <p>{{text}}</p>
+            </li>
+        {{/posts}}
+    </ul>
+
+    <div class="pagination">
+        {{^isFirst}}
+            <a href="?page={{prevPage}}&size={{pageSize}}">Anterior</a>
+        {{/isFirst}}
+
+        Página {{pageNumber}} de {{totalPages}}
+
+        {{^isLast}}
+            <a href="?page={{nextPage}}&size={{pageSize}}">Siguiente</a>
+        {{/isLast}}
+    </div>
+</body>
+</html>
