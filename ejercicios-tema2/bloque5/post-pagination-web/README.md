@@ -1,18 +1,30 @@
-# 📃 Post Pagination Web (Mustache)
+# 🗂️ Post Pagination Web (Versión Inicial con Paginación)
 
-Este proyecto es una versión web del sistema de gestión de posts que utiliza **paginación** para mostrar los resultados y una interfaz desarrollada con **plantillas Mustache**. Forma parte del *Ejercicio 2* del bloque de paginación del curso de Spring Boot.
-
----
-
-## 💡 Funcionalidades principales
-
-- Visualización paginada de los posts.
-- Navegación entre páginas usando enlaces dinámicos.
-- Plantilla Mustache para el listado.
+Este proyecto es una aplicación web en Spring Boot que muestra un listado paginado de publicaciones (posts) utilizando el motor de plantillas Mustache. La paginación se aplica directamente en el controlador usando el parámetro `Pageable`, y se visualiza en una página HTML generada desde `/templates/posts.mustache`.
 
 ---
 
-## 🧱 Estructura del proyecto
+## ✅ Funcionalidades actuales
+
+- Mostrar todos los posts en una tabla paginada
+- Navegar entre páginas con botones "anterior" y "siguiente"
+- Visualización simple con título, autor y contenido del post
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- Java 24
+- Spring Boot 3.4.4
+- Spring Data JPA
+- Spring Web MVC
+- Spring Mustache (para plantillas)
+- H2 Database (en memoria)
+- Maven
+
+---
+
+## 📁 Estructura del proyecto
 
 ```bash
 post-pagination-web/
@@ -22,9 +34,9 @@ post-pagination-web/
 │       │   └── es/
 │       │       └── chatgpt/
 │       │           └── code/
-│       │               └── post_pagination_web/
+│       │               └── postpaginationweb/
 │       │                   ├── controller/
-│       │                   │   └── WebPostController.java
+│       │                   │   └── WebController.java
 │       │                   ├── model/
 │       │                   │   └── Post.java
 │       │                   ├── repository/
@@ -40,39 +52,35 @@ post-pagination-web/
 
 ---
 
-## 🌐 Vista web disponible
+## 🌐 Acceso a la aplicación
 
-- Listado: `http://localhost:8080/web/posts/`
-
----
-
-## ⚙️ Paginación
-
-- Número de página y tamaño gestionado por Spring automáticamente.
-- Se puede acceder directamente a otras páginas mediante parámetros URL:
-
-```
-http://localhost:8080/web/posts/?page=1&size=5
-```
+- Página principal:
+  - [http://localhost:8080/web/posts](http://localhost:8080/web/posts)
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## 📖 Próximas extensiones
 
-- Java 24
-- Spring Boot 3
-- Spring Data JPA
-- Mustache (plantillas)
-- H2 Database (en memoria)
-- Maven
+- [x] Filtrado por nombre de usuario (`?username=Juan`)
+- [ ] Ordenación (`?sort=title,asc`)
+- [ ] Paginación completa con controles más avanzados (números de página, salto rápido)
+- [ ] Página de detalle de post
 
 ---
 
-## 🧪 Próximas mejoras
+## 🧪 Datos de prueba
 
-- Filtro por nombre de usuario desde la web
-- Ordenación por campos (username, título)
-- Estilos visuales
-- Controles de navegación más accesibles
+Se cargan automáticamente algunos posts al iniciar la aplicación desde el método `@PostConstruct` en el `WebController`.
 
 ---
+
+## 📝 Notas adicionales
+
+- La plantilla `posts.mustache` se encuentra en `src/main/resources/templates`
+- El sufijo de los archivos Mustache no es `.html`, debe permanecer `.mustache` para que Spring los detecte correctamente
+- El controlador **no** debe anotarse con `@RestController`, sino con `@Controller`
+- No es necesario configurar `spring.mustache.suffix=.html` si los archivos terminan en `.mustache`
+
+---
+
+> Esta versión corresponde al **Ejercicio 2** del bloque de paginación en Spring MVC. Se irá extendiendo progresivamente con nuevas funcionalidades.
