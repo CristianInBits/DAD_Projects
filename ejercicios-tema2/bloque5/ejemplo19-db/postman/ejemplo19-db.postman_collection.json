@@ -1,0 +1,97 @@
+{
+    "info": {
+        "_postman_id": "postman-collection-id-pagination-posts-custom-json",
+        "name": "Posts API con JSON personalizado (example19-db)",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "GET - Página 0 (todos los posts)",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:8080/posts/?page=0&size=2",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "posts",
+                        ""
+                    ],
+                    "query": [
+                        {
+                            "key": "page",
+                            "value": "0"
+                        },
+                        {
+                            "key": "size",
+                            "value": "2"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "name": "GET - Página 1 (siguiente página si hay más posts)",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:8080/posts/?page=1&size=2",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "posts",
+                        ""
+                    ],
+                    "query": [
+                        {
+                            "key": "page",
+                            "value": "1"
+                        },
+                        {
+                            "key": "size",
+                            "value": "2"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "name": "GET - Filtrar por username (Pepe)",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:8080/posts/?username=Pepe&page=0&size=2",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "posts",
+                        ""
+                    ],
+                    "query": [
+                        {
+                            "key": "username",
+                            "value": "Pepe"
+                        },
+                        {
+                            "key": "page",
+                            "value": "0"
+                        },
+                        {
+                            "key": "size",
+                            "value": "2"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

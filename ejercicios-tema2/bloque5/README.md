@@ -28,6 +28,7 @@ Este bloque contiene ejercicios prácticos sobre integración de **bases de dato
 | `ejemplo17-db/`       | API REST con relación 1:N y consultas dinámicas usando QueryDSL para filtrar por comentarios. |
 | `ejemplo18-db/`       | API REST con paginación y ordenación utilizando Spring Data JPA y Pageable. |
 | `item-manager-db-api/`   | API REST para gestionar items con base de datos H2, JPA y manejo de errores.                                  |
+| `example19-db/`         | API REST con paginación + serialización personalizada de objetos Page en JSON.       |
 | `library-manager-api/`   | API REST para gestionar libros en una biblioteca con filtros por autor y persistencia con JPA.                |
 | `movie-manager-db-api/`  | API REST para gestionar películas, usando JPA + H2 + `@ControllerAdvice`.                                     |
 | `pagination10-posts-db/` | API REST con paginación de resultados usando Spring Data `Pageable`. |
