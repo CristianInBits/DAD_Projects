@@ -30,6 +30,7 @@ Este bloque contiene ejercicios prácticos sobre integración de **bases de dato
 | `item-manager-db-api/`   | API REST para gestionar items con base de datos H2, JPA y manejo de errores.                                  |
 | `library-manager-api/`   | API REST para gestionar libros en una biblioteca con filtros por autor y persistencia con JPA.                |
 | `movie-manager-db-api/`  | API REST para gestionar películas, usando JPA + H2 + `@ControllerAdvice`.                                     |
+| `pagination10-posts-db/` | API REST con paginación de resultados usando Spring Data `Pageable`. |
 | _..._                    | Se irán añadiendo nuevos ejemplos con más funcionalidades y relaciones.                                       |
 
 ---

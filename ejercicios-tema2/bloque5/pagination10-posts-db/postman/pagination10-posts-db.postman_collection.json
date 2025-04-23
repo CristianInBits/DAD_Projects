@@ -1,0 +1,121 @@
+{
+    "info": {
+        "_postman_id": "postman-collection-id-pagination-posts",
+        "name": "Posts API con Paginación (pagination10-posts-db)",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "GET - Página 0 (3 primeros posts)",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:8080/posts/?page=0&size=3",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "posts",
+                        ""
+                    ],
+                    "query": [
+                        {
+                            "key": "page",
+                            "value": "0"
+                        },
+                        {
+                            "key": "size",
+                            "value": "3"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "name": "GET - Página 1 (posts 4 a 6)",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:8080/posts/?page=1&size=3",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "posts",
+                        ""
+                    ],
+                    "query": [
+                        {
+                            "key": "page",
+                            "value": "1"
+                        },
+                        {
+                            "key": "size",
+                            "value": "3"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "name": "GET - Página 2 (posts 7 a 9)",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:8080/posts/?page=2&size=3",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "posts",
+                        ""
+                    ],
+                    "query": [
+                        {
+                            "key": "page",
+                            "value": "2"
+                        },
+                        {
+                            "key": "size",
+                            "value": "3"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "name": "GET - Página 3 (último post)",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:8080/posts/?page=3&size=3",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "posts",
+                        ""
+                    ],
+                    "query": [
+                        {
+                            "key": "page",
+                            "value": "3"
+                        },
+                        {
+                            "key": "size",
+                            "value": "3"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

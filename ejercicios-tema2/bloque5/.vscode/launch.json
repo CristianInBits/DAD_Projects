@@ -209,6 +209,16 @@
             "projectName": "ejemplo18-db",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Pagination10PostsDbApplication<pagination10-posts-db>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "es.chatgpt.code.pagination10_posts_db.Pagination10PostsDbApplication",
+            "projectName": "pagination10-posts-db",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
