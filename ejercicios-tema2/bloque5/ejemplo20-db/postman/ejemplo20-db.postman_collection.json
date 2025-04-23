@@ -1,0 +1,115 @@
+{
+    "info": {
+        "_postman_id": "2b3a77c5-cda2-4523-8d2b-8b9a4f423c4f",
+        "name": "Posts API - MySQL (ejemplo20-db)",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Get All Posts",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/posts/",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "posts",
+                        ""
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Get Posts by User",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/posts/?user=Pepe",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "posts",
+                        ""
+                    ],
+                    "query": [
+                        {
+                            "key": "user",
+                            "value": "Pepe"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Get Paginated Posts (page 0, size 1)",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/posts/?page=0&size=1",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "posts",
+                        ""
+                    ],
+                    "query": [
+                        {
+                            "key": "page",
+                            "value": "0"
+                        },
+                        {
+                            "key": "size",
+                            "value": "1"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Get Paginated Posts by User",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8080/posts/?user=Juan&page=0&size=1",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "posts",
+                        ""
+                    ],
+                    "query": [
+                        {
+                            "key": "user",
+                            "value": "Juan"
+                        },
+                        {
+                            "key": "page",
+                            "value": "0"
+                        },
+                        {
+                            "key": "size",
+                            "value": "1"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
